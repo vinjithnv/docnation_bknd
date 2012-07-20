@@ -1,0 +1,4 @@
+$this->Acl->Aco->create(array('parent_id' => null, 'alias' => 'controllers'));
+$this->Acl->Aco->save();
+
+$this->Acl->allow($aroAlias, $acoAlias);
